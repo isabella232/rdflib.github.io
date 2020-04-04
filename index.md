@@ -24,7 +24,7 @@ Please see the list for all packages/repositories here:
 See <https://rdflib.readthedocs.io> for our documentation built from the code.
 
 ## Support
-For general "how do I..." queries, please use <stackoverflow.com> and tag your question with `[rdflib]`. Existing questions:
+For general "how do I..." queries, please use https://stackoverflow.com and tag your question with `rdflib`. Existing questions:
 
 * <https://stackoverflow.com/questions/tagged/rdflib>
 
