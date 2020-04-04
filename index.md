@@ -40,8 +40,8 @@ There hasn't been a stable rdflib release for a while and we hope to remedy this
 --- | --- | ---
 *6.0.0* | *29 Jun 2020 (expected)* | *This will include major breaking changes such as no support for Python 2 or 3.4, Python 3.5+ only*
 *5.0.0* | *18 Apr 2020 (expected)* | *Full release of 5.0.0 snapshot after two weeks of user testing*
-*5.0.0RC1* | *04 Apr 2020* | *This is a release of all changes already in `master`*
-**4.2.2** | **30 Jan 2017** | **Curent stable release. Now 3+ years old, soon to be updated.**
+*5.0.0RC1* | *04 Apr 2020* | *This is a release of all changes already in `master`*<br />Documentation: https://rdflib.readthedocs.io/en/latest/
+**4.2.2** | **30 Jan 2017** | **Curent stable release. Now 3+ years old, soon to be updated.**<br />Documentation: https://rdflib.readthedocs.io/en/stable/
 ... | ... | ...
 1.1.1 | 12 Nov 2002 | First release!
 
