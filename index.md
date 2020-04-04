@@ -1,3 +1,8 @@
+---
+layout: slim
+title: "Home"
+permalink: /
+---
 <img src="style/logo-rdflib.png" alt="RDFlib's logo" />
 
 # RDFlib
