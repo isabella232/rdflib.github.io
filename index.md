@@ -26,28 +26,28 @@ operating packages are shown in Figure 1.
 
 * **Parsers/Serializers**:
     * [rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld) - an rdflib plugin that is an implementation of JSON-LD
-    * [pymicrodata](https://github.com/RDFLib/) - This a module to extract RDF from an HTML5 page annotated with microdata
-    * [pyrdfa3](https://github.com/RDFLib/) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
+    * [pymicrodata](https://github.com/RDFLib/pymicrodata) - This a module to extract RDF from an HTML5 page annotated with microdata
+    * [pyrdfa3](https://github.com/RDFLib/pyrdfa3) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
     
 * **Stores**:     
-    * [rdflib-hdt](https://github.com/RDFLib/) - A Store back-end for rdflib to allow for reading and querying HDT documents
-    * [rdflib-zodb](https://github.com/RDFLib/) - RDFLib Store backed by ZODB3
-    * [rdflib-kyotocabinet](https://github.com/RDFLib/) - RDFLib Store backed by Kyoto Cabinet
-    * [rdflib-leveldb](https://github.com/RDFLib/) - A LevelDB based Store for rdflib
-    * [rdflib-sqlalchemy](https://github.com/RDFLib/) - RDFLib store using SQLAlchemy dbapi as back-end 
+    * [rdflib-hdt](https://github.com/RDFLib/rdflib-hdt) - A Store back-end for rdflib to allow for reading and querying HDT documents
+    * [rdflib-zodb](https://github.com/RDFLib/rdflib-zodb) - RDFLib Store backed by ZODB3
+    * [rdflib-kyotocabinet](https://github.com/RDFLib/rdflib-kyotocabinet) - RDFLib Store backed by Kyoto Cabinet
+    * [rdflib-leveldb](https://github.com/RDFLib/rdflib-leveldb) - A LevelDB based Store for rdflib
+    * [rdflib-sqlalchemy](https://github.com/RDFLib/rdflib-sqlalchemy) - RDFLib store using SQLAlchemy dbapi as back-end 
     
 * **SPARQL tools**:
     * [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) - a simple Python wrapper around a SPARQL service to remotely execute your queries
     
 * **OWL Reasoning & Documentation**:    
-    * [OWL-RL](https://github.com/RDFLib/) - A simple implementation of the OWL2 RL Profile on top of RDFLib
+    * [OWL-RL](https://github.com/RDFLib/OWL-RL) - A simple implementation of the OWL2 RL Profile on top of RDFLib
     * [pyLODE](https://github.com/RDFLib/pyLODE) - An OWL ontology documentation tool using Python and templating, based on LODE.
     
 * **SHACL validation**:
-    * [pySHACL](https://github.com/RDFLib/) - A Python validator for SHACL 
+    * [pySHACL](https://github.com/RDFLib/pySHACL) - A Python validator for SHACL 
     
 * **Linked Data APIs**:
-    * [pyLDAPI](https://github.com/RDFLib/) - A very small module to add Linked Data API functionality to a Python Flask installation
+    * [pyLDAPI](https://github.com/RDFLib/pyLDAPI) - A very small module to add Linked Data API functionality to a Python Flask installation
 
 Please see the list of all packages here:
 
