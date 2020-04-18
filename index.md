@@ -66,7 +66,7 @@ questions:
 
 
 ## Releases
-There hasn't been a stable rdflib release for a while and we hope to remedy this shortly.
+*rdflib 5.0.0 has just been released and 6.0.0 is now being word on - April 2020.*
 
 **Release** | **Date** | **Note**
 --- | --- | ---
