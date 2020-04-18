@@ -3,7 +3,7 @@ layout: slim
 title: "Home"
 permalink: /
 ---
-<img src="style/logo-rdflib.png" alt="RDFlib's logo" />
+![](style/logo-rdflib.png)
 
 # RDFlib
 RDFLib is a pure Python package work working with [RDF](http://www.w3.org/RDF/). RDFLib contains most things you need to work with RDF, including:
@@ -13,25 +13,57 @@ RDFLib is a pure Python package work working with [RDF](http://www.w3.org/RDF/).
 * store implementations for in-memory storage and persistent storage on top of the Berkeley DB
 * a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements
 
+
 ## RDFlib Family of packages
-The RDFlib community maintains many RDF-related Python code repositories with different purposes. For example:
+The RDFlib community maintains many RDF-related Python code repositories with different purposes. Most of the currently 
+operating packages are shown in Figure 1.
 
-* [rdflib](https://github.com/RDFLib/rdflib) - the rdflib core
-* [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) - a simple Python wrapper around a SPARQL service to remotely execute your queries
-* [pyLODE](https://github.com/RDFLib/pyLODE) - An OWL ontology documentation tool using Python and templating, based on LODE.
-* [rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld) - an rdflib plugin that is an implementation of JSON-LD
+![](images/rdflib-packages.png)  
+**Figure 1**: Packages within the RDFlib family. 
 
-Please see the list for all packages/repositories here:
+* **Core**:
+    * [rdflib](https://github.com/RDFLib/rdflib) - the rdflib core
+
+* **Parsers/Serializers**:
+    * [rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld) - an rdflib plugin that is an implementation of JSON-LD
+    * [pymicrodata](https://github.com/RDFLib/) - This a module to extract RDF from an HTML5 page annotated with microdata
+    * [pyrdfa3](https://github.com/RDFLib/) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
+    
+* **Stores**:     
+    * [rdflib-hdt](https://github.com/RDFLib/) - A Store back-end for rdflib to allow for reading and querying HDT documents
+    * [rdflib-zodb](https://github.com/RDFLib/) - RDFLib Store backed by ZODB3
+    * [rdflib-kyotocabinet](https://github.com/RDFLib/) - RDFLib Store backed by Kyoto Cabinet
+    * [rdflib-leveldb](https://github.com/RDFLib/) - A LevelDB based Store for rdflib
+    * [rdflib-sqlalchemy](https://github.com/RDFLib/) - RDFLib store using SQLAlchemy dbapi as back-end 
+    
+* **SPARQL tools**:
+    * [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) - a simple Python wrapper around a SPARQL service to remotely execute your queries
+    
+* **OWL Reasoning & Documentation**:    
+    * [OWL-RL](https://github.com/RDFLib/) - A simple implementation of the OWL2 RL Profile on top of RDFLib
+    * [pyLODE](https://github.com/RDFLib/pyLODE) - An OWL ontology documentation tool using Python and templating, based on LODE.
+    
+* **SHACL validation**:
+    * [pySHACL](https://github.com/RDFLib/) - A Python validator for SHACL 
+    
+* **Linked Data APIs**:
+    * [pyLDAPI](https://github.com/RDFLib/) - A very small module to add Linked Data API functionality to a Python Flask installation
+
+Please see the list of all packages here:
 
 * <https://github.com/RDFLib>
+
 
 ## Documentation
 See <https://rdflib.readthedocs.io> for our documentation built from the code.
 
+
 ## Support
-For general "how do I..." queries, please use https://stackoverflow.com and tag your question with `rdflib`. Existing questions:
+For general "how do I..." queries, please use https://stackoverflow.com and tag your question with `rdflib`. Existing 
+questions:
 
 * <https://stackoverflow.com/questions/tagged/rdflib>
+
 
 ## Releases
 There hasn't been a stable rdflib release for a while and we hope to remedy this shortly.
@@ -39,15 +71,15 @@ There hasn't been a stable rdflib release for a while and we hope to remedy this
 **Release** | **Date** | **Note**
 --- | --- | ---
 *6.0.0* | *29 Jun 2020 (expected)* | *This will include major breaking changes such as no support for Python 2 or 3.4, Python 3.5+ only*
-*5.0.0* | *18 Apr 2020 (expected)* | *Full release of 5.0.0 snapshot after two weeks of user testing*
-*5.0.0RC1* | *04 Apr 2020* | *This is a release of all changes already in `master`*<br />Documentation: [readthedocs/latest](https://rdflib.readthedocs.io/en/latest/)
-**4.2.2** | **30 Jan 2017** | **Curent stable release. Now 3+ years old, soon to be updated.**<br />Documentation: [readthedocs/stable](https://rdflib.readthedocs.io/en/stable/)
+**5.0.0** | **18 Apr 2020** | **Current stable release.**<br />Release of `master` contents as of 18 Apr 2020<br />Last release with Python 2 & 3.4 support<br />Documentation: [readthedocs/latest](https://rdflib.readthedocs.io/en/latest/)
+5.0.0RC1 | 04 Apr 2020 | This was a pre-release of all changes in `master` as of 04 Apr 2020
+4.2.2 | 30 Jan 2017 | Previous stable release.<br />Documentation: [readthedocs/4.2.2](https://rdflib.readthedocs.io/en/4.2.2/)
 ... | ... | ...
 1.1.1 | 12 Nov 2002 | First release!
 
 
 ## Contributing
-We are currently (March, 2020) revitalising the rdflib community and would love contributions from users. Please consider lodging Pull Requests here:
+rdflib survives and grows via user contributions! Please consider lodging Pull Requests here:
 
 * <https://github.com/RDFLib/rdflib/pulls>
 
