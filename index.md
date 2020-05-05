@@ -3,7 +3,7 @@ layout: slim
 title: "Home"
 permalink: /
 ---
-![](style/logo-rdflib.png)
+![](images/RDFlib-250.png)
 
 # RDFlib
 RDFLib is a pure Python package work working with [RDF](http://www.w3.org/RDF/). RDFLib contains most things you need to work with RDF, including:
