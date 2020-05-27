@@ -49,6 +49,9 @@ operating packages are shown in Figure 1.
 * **Linked Data APIs**:
     * [pyLDAPI](https://github.com/RDFLib/pyLDAPI) - A very small module to add Linked Data API functionality to a Python Flask installation
 
+* **Derived tools**:  
+    * [VocPrez](https://github.com/RDFLib/VocPrez) - A tool (API and web front-end), based on pyLDAPI, for the read-only delivery system of SKOS vocabularies. 
+
 Please see the list of all packages here:
 
 * <https://github.com/RDFLib>
