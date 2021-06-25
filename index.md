@@ -73,7 +73,8 @@ questions:
 
 **Release** | **Date** | **Note**
 --- | --- | ---
-*6.0.0* | *29 Jun 2020 (expected)* | *This will include major breaking changes such as no support for Python 2 or 3.4, Python 3.5+ only*
+*6.0.0* | *Late 2021 (expected)* | *The release of `master` at some point in late 2021*
+*6.0.0a0* | April 2020+ | Current `master`<br />The pending alpha release of 6.0.0. No support for Python < 3.6
 **5.0.0** | **18 Apr 2020** | **Current stable release.**<br />Release of `master` contents as of 18 Apr 2020<br />Last release with Python 2 & 3.4 support<br />Documentation: [readthedocs/latest](https://rdflib.readthedocs.io/en/latest/)
 5.0.0RC1 | 04 Apr 2020 | This was a pre-release of all changes in `master` as of 04 Apr 2020
 4.2.2 | 30 Jan 2017 | Previous stable release.<br />Documentation: [readthedocs/4.2.2](https://rdflib.readthedocs.io/en/4.2.2/)
