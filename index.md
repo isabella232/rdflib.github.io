@@ -15,11 +15,11 @@ RDFLib is a pure Python package work working with [RDF](http://www.w3.org/RDF/).
 
 
 ## RDFlib Family of packages
-The RDFlib community maintains many RDF-related Python code repositories with different purposes. Most of the currently 
+The RDFlib community maintains many RDF-related Python code repositories with different purposes. Most of the currently
 operating packages are shown in Figure 1.
 
 ![](images/rdflib-packages.png)  
-**Figure 1**: Packages within the RDFlib family. 
+**Figure 1**: Packages within the RDFlib family.
 
 * **Core**:
     * [rdflib](https://github.com/RDFLib/rdflib) - the rdflib core
@@ -28,29 +28,29 @@ operating packages are shown in Figure 1.
     * [rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld) - an rdflib plugin that is an implementation of JSON-LD
     * [pymicrodata](https://github.com/RDFLib/pymicrodata) - This a module to extract RDF from an HTML5 page annotated with microdata
     * [pyrdfa3](https://github.com/RDFLib/pyrdfa3) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
-    
+
 * **Stores**:     
     * [rdflib-hdt](https://github.com/RDFLib/rdflib-hdt) - A Store back-end for rdflib to allow for reading and querying HDT documents
     * [rdflib-zodb](https://github.com/RDFLib/rdflib-zodb) - RDFLib Store backed by ZODB3
     * [rdflib-kyotocabinet](https://github.com/RDFLib/rdflib-kyotocabinet) - RDFLib Store backed by Kyoto Cabinet
     * [rdflib-leveldb](https://github.com/RDFLib/rdflib-leveldb) - A LevelDB based Store for rdflib
-    * [rdflib-sqlalchemy](https://github.com/RDFLib/rdflib-sqlalchemy) - RDFLib store using SQLAlchemy dbapi as back-end 
-    
+    * [rdflib-sqlalchemy](https://github.com/RDFLib/rdflib-sqlalchemy) - RDFLib store using SQLAlchemy dbapi as back-end
+
 * **SPARQL tools**:
     * [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) - a simple Python wrapper around a SPARQL service to remotely execute your queries
-    
+
 * **OWL Reasoning & Documentation**:    
     * [OWL-RL](https://github.com/RDFLib/OWL-RL) - A simple implementation of the OWL2 RL Profile on top of RDFLib
     * [pyLODE](https://github.com/RDFLib/pyLODE) - An OWL ontology documentation tool using Python and templating, based on LODE.
-    
+
 * **SHACL validation**:
-    * [pySHACL](https://github.com/RDFLib/pySHACL) - A Python validator for SHACL 
-    
+    * [pySHACL](https://github.com/RDFLib/pySHACL) - A Python validator for SHACL
+
 * **Linked Data APIs**:
     * [pyLDAPI](https://github.com/RDFLib/pyLDAPI) - A very small module to add Linked Data API functionality to a Python Flask installation
 
 * **Derived tools**:  
-    * [VocPrez](https://github.com/RDFLib/VocPrez) - A tool (API and web front-end), based on pyLDAPI, for the read-only delivery system of SKOS vocabularies. 
+    * [VocPrez](https://github.com/RDFLib/VocPrez) - A tool (API and web front-end), based on pyLDAPI, for the read-only delivery system of SKOS vocabularies.
 
 Please see the list of all packages here:
 
@@ -59,13 +59,6 @@ Please see the list of all packages here:
 
 ## Documentation
 See <https://rdflib.readthedocs.io> for our documentation built from the code.
-
-
-## Support
-For general "how do I..." queries, please use https://stackoverflow.com and tag your question with `rdflib`. Existing 
-questions:
-
-* <https://stackoverflow.com/questions/tagged/rdflib>
 
 
 ## Releases
@@ -92,7 +85,13 @@ You can also raise issues here:
 * <https://github.com/RDFLib/rdflib/issues>
 
 
-## Contacts
-If you want to contact the rdflib maintainers, please do so via the rdflib-dev mailing list:
+## Support & Contacts
+For general "how do I..." queries, please use https://stackoverflow.com and tag your question with `rdflib`.
+Existing questions:
 
-* <https://groups.google.com/group/rdflib-dev>
+* <https://stackoverflow.com/questions/tagged/rdflib>
+
+If you want to contact the rdflib maintainers, please do so via:
+
+* the rdflib-dev mailing list: <https://groups.google.com/group/rdflib-dev>
+* the chat, which is available at [gitter](https://gitter.im/RDFLib/rdflib) or via matrix [#RDFLib_rdflib:gitter.im](https://matrix.to/#/#RDFLib_rdflib:gitter.im)
