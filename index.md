@@ -6,12 +6,13 @@ permalink: /
 ![](images/RDFlib-250.png)
 
 # RDFlib
-RDFLib is a pure Python package work working with [RDF](http://www.w3.org/RDF/). RDFLib contains most things you need to work with RDF, including:
+RDFLib is a pure Python package for working with [RDF](http://www.w3.org/RDF/). RDFLib contains most things you need to work with RDF, including:
 
-* parsers and serializers for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, Trig and JSON-LD (via a plugin).
+* parsers and serializers for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, Trig and JSON-LD
 * a Graph interface which can be backed by any one of a number of Store implementations
-* store implementations for in-memory storage and persistent storage on top of the Berkeley DB
+* store implementations for in-memory, persistent on disk (Berkeley DB) and remote SPARQL endpoints
 * a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements
+* SPARQL function extension mechanisms
 
 
 ## RDFlib Family of packages
@@ -25,7 +26,6 @@ operating packages are shown in Figure 1.
     * [rdflib](https://github.com/RDFLib/rdflib) - the rdflib core
 
 * **Parsers/Serializers**:
-    * [rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld) - an rdflib plugin that is an implementation of JSON-LD
     * [pymicrodata](https://github.com/RDFLib/pymicrodata) - This a module to extract RDF from an HTML5 page annotated with microdata
     * [pyrdfa3](https://github.com/RDFLib/pyrdfa3) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
     
@@ -73,11 +73,11 @@ questions:
 
 **Release** | **Date** | **Note**
 --- | --- | ---
-*6.0.0* | *Late 2021 (expected)* | *The release of `master` at some point in late 2021*
-*6.0.0a0* | April 2020+ | Current `master`<br />The pending alpha release of 6.0.0. No support for Python < 3.6
-**5.0.0** | **18 Apr 2020** | **Current stable release.**<br />Release of `master` contents as of 18 Apr 2020<br />Last release with Python 2 & 3.4 support<br />Documentation: [readthedocs/latest](https://rdflib.readthedocs.io/en/latest/)
+*6.0.1a0* | *August 2021 (expected)* | *Current [`master` branch in GitHub](https://github.com/RDFLib/rdflib/)* <br />Documentation: [readthedocs/latest](https://rdflib.readthedocs.io/en/latest/)
+**6.0.0** | **20 July 2021** | **Current stable release**<br />Release of `master` as of 20 July 2021. Current `master`<br />Documentation: [readthedocs/stable](https://rdflib.readthedocs.io/en/stable/)
+5.0.0 | 18 Apr 2020 | Previous stable release<br />Release of `master` contents as of 18 Apr 2020<br />Last release with Python 2 & 3.4 support<br />Documentation: [readthedocs/5.0.0](https://rdflib.readthedocs.io/en/5.0.0/)
 5.0.0RC1 | 04 Apr 2020 | This was a pre-release of all changes in `master` as of 04 Apr 2020
-4.2.2 | 30 Jan 2017 | Previous stable release.<br />Documentation: [readthedocs/4.2.2](https://rdflib.readthedocs.io/en/4.2.2/)
+4.2.2 | 30 Jan 2017 | Previous stable release<br />Documentation: [readthedocs/4.2.2](https://rdflib.readthedocs.io/en/4.2.2/)
 ... | ... | ...
 1.1.1 | 12 Nov 2002 | First release!
 
