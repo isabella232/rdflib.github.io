@@ -8,12 +8,16 @@ permalink: /
 # RDFlib
 RDFLib is a pure Python package for working with [RDF](http://www.w3.org/RDF/). RDFLib contains most things you need to work with RDF, including:
 
-* parsers and serializers for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, Trig and JSON-LD
+* parsers and serializers
+    * for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, Trig and JSON-LD & HexTuples
 * a Graph interface which can be backed by any one of a number of Store implementations
-* store implementations for in-memory, persistent on disk (Berkeley DB) and remote SPARQL endpoints
-* a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements
+* many store implementations 
+    * in-memory, persistent on disk (Berkeley DB) and remote SPARQL endpoints
+* a SPARQL 1.1 implementation
+    * supporting SPARQL 1.1 Queries and Update statements
 * SPARQL function extension mechanisms
 
+Many 3rd party packages support additional stores, parsers etc.
 
 ## RDFlib Family of packages
 The RDFlib community maintains many RDF-related Python code repositories with different purposes. Most of the currently
@@ -26,15 +30,21 @@ operating packages are shown in Figure 1.
     * [rdflib](https://github.com/RDFLib/rdflib) - the rdflib core
 
 * **Parsers/Serializers**:
-    * [pymicrodata](https://github.com/RDFLib/pymicrodata) - This a module to extract RDF from an HTML5 page annotated with microdata
-    * [pyrdfa3](https://github.com/RDFLib/pyrdfa3) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
+   * RDFlib:
+       * [pymicrodata](https://github.com/RDFLib/pymicrodata) - This a module to extract RDF from an HTML5 page annotated with microdata
+       * [pyrdfa3](https://github.com/RDFLib/pyrdfa3) - RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @Version attribute) from (X)HTML, SVG, or XML
+   * 3rd party:
+       * [FunOWL](https://github.com/hsolbrig/funowl) - Functional Syntax
 
-* **Stores**:     
-    * [rdflib-hdt](https://github.com/RDFLib/rdflib-hdt) - A Store back-end for rdflib to allow for reading and querying HDT documents
-    * [rdflib-zodb](https://github.com/RDFLib/rdflib-zodb) - RDFLib Store backed by ZODB3
-    * [rdflib-kyotocabinet](https://github.com/RDFLib/rdflib-kyotocabinet) - RDFLib Store backed by Kyoto Cabinet
-    * [rdflib-leveldb](https://github.com/RDFLib/rdflib-leveldb) - A LevelDB based Store for rdflib
-    * [rdflib-sqlalchemy](https://github.com/RDFLib/rdflib-sqlalchemy) - RDFLib store using SQLAlchemy dbapi as back-end
+* **Stores**:   
+    * RDFlib:  
+       * [rdflib-hdt](https://github.com/RDFLib/rdflib-hdt) - A Store back-end for rdflib to allow for reading and querying HDT documents
+       * [rdflib-zodb](https://github.com/RDFLib/rdflib-zodb) - RDFLib Store backed by ZODB3
+       * [rdflib-kyotocabinet](https://github.com/RDFLib/rdflib-kyotocabinet) - RDFLib Store backed by Kyoto Cabinet
+       * [rdflib-leveldb](https://github.com/RDFLib/rdflib-leveldb) - A LevelDB based Store for rdflib
+       * [rdflib-sqlalchemy](https://github.com/RDFLib/rdflib-sqlalchemy) - RDFLib store using SQLAlchemy dbapi as back-end
+    * 3rd party:
+       * [Neo4J](https://github.com/neo4j-labs/rdflib-neo4j) - using Neo4J as a back-end. Even support RDF-Star
 
 * **SPARQL tools**:
     * [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) - a simple Python wrapper around a SPARQL service to remotely execute your queries
@@ -62,7 +72,7 @@ See <https://rdflib.readthedocs.io> for our documentation built from the code.
 
 
 ## Releases
-*rdflib 6.0.2 is the current release and small releases with small improvements are planned every other month*
+*rdflib 6.1.1 is the current release and small releases with small improvements are planned every other month*
 
 **Release** | **Date** | **Note**
 --- | --- | ---
