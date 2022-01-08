@@ -1,3 +1,5 @@
+![](images/RDFlib-250.png)
+
 # rdflib.github.io website
 
 This repository contains the source for the simple website <https://rdflib.dev> which is the home page of the [RDFlib](https://github.com/RDFLib/)
